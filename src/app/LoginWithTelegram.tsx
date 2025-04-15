@@ -14,7 +14,7 @@ const LoginWithTelegram = () => {
     script.setAttribute('data-size', 'medium');
 
     // 👇 Set the frontend route you want Telegram to redirect to after login
-    script.setAttribute('data-auth-url', 'http://localhost:3000/telegram-auth');
+    script.setAttribute('data-auth-url', 'https://telegram-widget-test.vercel.app/telegram-auth');
     // In production, you'd use your real domain like:
     // script.setAttribute('data-auth-url', 'https://yourdomain.com/telegram-auth');
 
