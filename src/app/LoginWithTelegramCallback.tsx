@@ -1,4 +1,4 @@
-/* eslint-disable linebreak-style */
+'use client'; // Only needed if you're in App Router
 
 import { useEffect } from "react";
 
