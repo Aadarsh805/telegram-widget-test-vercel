@@ -11,6 +11,7 @@ const LoginWithTelegram = () => {
     script.src = 'https://telegram.org/js/telegram-widget.js?22';
     script.async = true;
 
+    
     // 🔁 Replace with your actual bot username (NO @ symbol)
     script.setAttribute('data-telegram-login', 'auth_widget_test_bot');
 
