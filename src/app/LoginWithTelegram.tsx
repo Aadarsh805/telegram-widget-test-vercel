@@ -20,8 +20,6 @@ const LoginWithTelegram = () => {
     // ✅ This must match the domain you set with BotFather
     script.setAttribute('data-auth-url', 'https://telegram-widget-test-server.vercel.app/telegram-auth');
 
-    script.setAttribute('data-request-access', 'write');
-
     // Clean and add script
     container.innerHTML = '';
     container.appendChild(script);
