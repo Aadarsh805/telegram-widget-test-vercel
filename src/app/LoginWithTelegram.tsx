@@ -12,7 +12,7 @@ const LoginWithTelegram = () => {
     script.async = true;
 
     // 🔁 Replace with your actual bot username (NO @ symbol)
-    script.setAttribute('data-telegram-login', 'login_widget_testing_bot');
+    script.setAttribute('data-telegram-login', 'auth_widget_test_bot');
 
     script.setAttribute('data-size', 'large');
     script.setAttribute('data-radius', '14');
